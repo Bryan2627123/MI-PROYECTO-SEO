@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://mi-proyecto-seo-omega.vercel.app";
 
 export default async function handler(req, res) {
   const dynamicPages = await getDynamicPages();
